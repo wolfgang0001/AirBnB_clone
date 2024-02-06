@@ -1,3 +1,16 @@
 #!/usr/bin/python3
-def magic_calculation(a, b):
-    return (98 + (a ** b))
+
+
+"""Define a class Square."""
+
+
+class Square:
+    """Represent a square."""
+
+    def __init__(self, size):
+
+        ''' Initialise The square
+        Args:
+            size (int): The size of the new square.
+        '''
+        self.__size = size
